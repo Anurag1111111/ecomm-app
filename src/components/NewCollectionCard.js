@@ -16,7 +16,7 @@ function NewCollectionCard(props) {
         <p className="text-light">{information}</p>
         <p className="text-light">{price}</p>
       </div>
-      <Link to="/" className="stretched-link"></Link>
+      <Link to="/store" className="stretched-link"></Link>
     </div>
   );
 }
