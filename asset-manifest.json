@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecomm-app/static/css/main.e9595fc8.css",
-    "main.js": "/ecomm-app/static/js/main.24056d90.js",
+    "main.js": "/ecomm-app/static/js/main.5d1127b5.js",
     "static/media/music-image.jpg": "/ecomm-app/static/media/music-image.2e880bbc44c860f9e2fc.jpg",
     "static/media/phone-1.jpg": "/ecomm-app/static/media/phone-1.7712a70933b9602c0eda.jpg",
     "static/media/Phone.jpg": "/ecomm-app/static/media/Phone.d1bf181f222a78851fa5.jpg",
@@ -11,10 +11,10 @@
     "static/media/logo-godrej.png": "/ecomm-app/static/media/logo-godrej.671beead879441c5b8f3.png",
     "index.html": "/ecomm-app/index.html",
     "main.e9595fc8.css.map": "/ecomm-app/static/css/main.e9595fc8.css.map",
-    "main.24056d90.js.map": "/ecomm-app/static/js/main.24056d90.js.map"
+    "main.5d1127b5.js.map": "/ecomm-app/static/js/main.5d1127b5.js.map"
   },
   "entrypoints": [
     "static/css/main.e9595fc8.css",
-    "static/js/main.24056d90.js"
+    "static/js/main.5d1127b5.js"
   ]
 }
