@@ -4,9 +4,6 @@ import { v4 as uuid } from "uuid";
 
 const FeaturedCard = (props) => {
   const [color, setColor] = useState("grey");
-  const clickbutton = (color) => {
-    setColor(color);
-  };
   useEffect(() => {
     document.getElementById("heart").style.color = color;
   }, [color]);
@@ -43,14 +40,15 @@ const FeaturedCard = (props) => {
       );
     }
   }
+
   return (
     <div className="card product-card shadow position-relative h-100">
       <div className="action-bar-1 position-absolute">
-        <Link>
+        <Link key={id}>
           <i
             className="fa fa-heart heart-color pl-3"
             onClick={() => {
-              clickbutton("red");
+              color === "grey" ? setColor("red") : setColor("grey");
             }}
             id="heart"
           ></i>

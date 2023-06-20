@@ -155,9 +155,9 @@ export class Provider extends Component {
       {
         id: 8,
         imageUrl:
-          "https://assets.reebok.com/images/w_600,f_auto,q_auto/71451f159d594a5f9837af24016121ac_9366/Classic_Leather_Shoes_White_HQ2231_01_standard.jpg",
+          "https://images.jdmagicbox.com/quickquotes/images_main/reebok-women-s-running-speed-breeze-shoes-black-silver-cold-grey-size-5-160088622-dfazh.png",
         imageUrl1:
-          "https://assets.reebok.com/images/w_600,f_auto,q_auto/2807b0e19383435ebbf1ae9b0102d0bd_9366/Classic_Leather_Make_It_Yours_Shoes_Blue_GX2257_01_standard.jpg",
+          "https://assetscdn1.paytm.com/images/catalog/product/F/FO/FOOREEBOK-MEN-GSHOE74980D5EC1F52/1563408735272_1.JPG?imwidth=540&impolicy=hq",
         title: "Reebok Shoe",
         information: "Glam to your daily wardrobe rotation.",
         price: "$200.00",

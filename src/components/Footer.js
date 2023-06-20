@@ -13,12 +13,12 @@ const Footer = () => {
         style={{ marginTop: "100px" }}
       >
         <div className="container-fluid text-center justify-content-center">
-          <div className="row py-5">
-            <div className="Forborder col-12 col-md-4">
-              <h4 className="text-light mb-4">Sign-Up For offers</h4>
+          <div className="container row pt-5">
+            <div className="Forborder col-12 col-md-6">
+              <h4 className="text-light mb-5 mt-1 mx-2">Sign-Up For offers</h4>
             </div>
-            <div className="Forborder col-12 col-md-8">
-              <div className="input-group mb-4">
+            <div className="col-10 col-md-6">
+              <div className="input-group forborder mb-4 mx-5">
                 <input
                   type="text"
                   className="form-control"
@@ -49,19 +49,19 @@ const Footer = () => {
               USA
             </address>
             <Link to="/www.instagram.com">
-              <BsInstagram className="text-white footer-icon fs-4 mx-2" />
+              <BsInstagram className="text-primary icon-hover footer-icon fs-4 mx-2" />
             </Link>
             <Link to="/">
-              <BsPinterest className="text-white footer-icon fs-4 mx-2" />
+              <BsPinterest className="text-primary icon-hover footer-icon fs-4 mx-2" />
             </Link>
             <Link to="/">
-              <BsTwitter className="text-white footer-icon fs-4 mx-2" />
+              <BsTwitter className="text-primary icon-hover footer-icon fs-4 mx-2" />
             </Link>
             <Link to="/">
-              <BsYoutube className="text-white footer-icon fs-4 mx-2" />
+              <BsYoutube className="text-primary icon-hover footer-icon fs-4 mx-2" />
             </Link>
           </div>
-          <div className="col-12 col-md-2 d-flex flex-column my-4">
+          <div className="col-12 col-md-2 d-flex flex-column mouse-hover my-4">
             <h4 className="text-white font-weight-normal">Information</h4>
             <a className="text-muted my-2" href="/">
               Privacy Policy
@@ -79,7 +79,7 @@ const Footer = () => {
               Contact Us
             </a>
           </div>
-          <div className="col-12 col-md-2 d-flex flex-column my-4">
+          <div className="col-12 col-md-2 d-flex mouse-hover flex-column my-4">
             <h4 className="text-white font-weight-normal">Account</h4>
             <a className="text-muted my-2" href="/">
               Search
@@ -97,7 +97,7 @@ const Footer = () => {
               Account Help
             </a>
           </div>
-          <div className="col-12 col-md-2 d-flex flex-column my-4">
+          <div className="col-12 col-md-2 d-flex flex-column mouse-hover my-4">
             <h4 className="text-white font-weight-normal">Quick Links</h4>
             <a className="text-muted my-2" href="/">
               Accessories

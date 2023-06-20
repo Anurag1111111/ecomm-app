@@ -1,11 +1,13 @@
 import { Consumer } from "../context";
 import ShoeCard from "./ShoeCard";
 import FeaturedCard from "./FeaturedCard";
-import Pagination from "react-bootstrap/Pagination";
 import RecommendationCard from "./RecommendationCard";
-import React from "react";
+import React, { useState } from "react";
+import { PaginationControl } from "react-bootstrap-pagination-control";
 
 const OurSection = () => {
+  const [page, setPage] = useState(1);
+
   return (
     <Consumer>
       {(value) => {
@@ -27,16 +29,23 @@ const OurSection = () => {
                 <RecommendationCard recommendation={recommendation} />
               </div>
             ))}
-            <Pagination className="align-items-center">
+            <PaginationControl
+              page={page}
+              total={100}
+              limit={20}
+              changePage={(page) => {
+                setPage(page);
+                console.log(page);
+              }}
+              ellipsis={1}
+            />
+            {/* <Pagination className="align-items-center">
               <Pagination.First />
               <Pagination.Item>{1}</Pagination.Item>
               <Pagination.Item>{2}</Pagination.Item>
               <Pagination.Item>{3}</Pagination.Item>
-              <Pagination.Item>{4}</Pagination.Item>
-              <Pagination.Item>{5}</Pagination.Item>
-              <Pagination.Item active>{6}</Pagination.Item>
               <Pagination.Last />
-            </Pagination>
+            </Pagination> */}
           </div>
         );
       }}

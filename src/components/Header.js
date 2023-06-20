@@ -11,7 +11,7 @@ const Header = () => {
             EcomApp
           </Link>
 
-          <div className="input-group fixed-top pt-4 mt-2">
+          <div className="input-group top-search fixed-top pt-4 mt-4">
             <input
               type="text"
               className="form-control h-100"
@@ -27,11 +27,11 @@ const Header = () => {
           </div>
 
           <button
-            className="navbar-toggler mx-1 btn-outline-info"
+            className="navbar-toggler mx-0 mt-2 btn-outline-info"
             data-bs-toggle="collapse"
             data-bs-target="#collapseNav"
           >
-            <i className="bi bi-list btn-outline-info"></i>
+            <i className="bi bi-list fs-3"></i>
           </button>
           <div
             className="collapse navbar-collapse flex-grow-0 justify-space-around"

@@ -15,12 +15,14 @@ import ProductShoePage from "./components/ProductShoePage";
 import ScrollToTop from "./components/ScrollToTop";
 import RecommendationPage from "./components/RecommendationPage";
 import ProductWhishlist from "./components/ProductWhishlist";
+import { createHashHistory } from "history";
 import Cart from "./components/Cart";
+export const history = createHashHistory();
 
 function App() {
   return (
     <Provider>
-      <HashRouter>
+      <HashRouter history={history}>
         <ScrollToTop />
         <Header />
         <Routes>
