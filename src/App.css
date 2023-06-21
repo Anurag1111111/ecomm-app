@@ -197,4 +197,13 @@ a {
   .navbar-brand {
     margin-top: 5px;
   }
+  .pagination {
+    margin-right: 80px;
+  }
+  .product-whishlist {
+    width: 400px;
+  }
+  .hide-overflow {
+    overflow-x: hidden;
+  }
 }

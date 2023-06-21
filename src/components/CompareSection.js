@@ -10,7 +10,7 @@ const CompareSection = () => {
         return (
           <div className="row">
             {Compares.map((compare) => (
-              <div key={compare.id} className="col-12 col-md-4">
+              <div key={compare.id} className="col-12 col-md-4 my-2">
                 <CompareCard compare={compare} />
               </div>
             ))}

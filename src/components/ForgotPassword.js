@@ -18,21 +18,24 @@ const ForgotPassword = () => {
                   We will send an Emial to change the Password
                 </p>
               </div>
-              <input
-                type="email"
-                className="form-control py-2"
-                id="exampleDropdownFormEmail1"
-                placeholder="email@example.com"
-              />
+              <form>
+                <input
+                  required
+                  type="email"
+                  className="form-control py-2"
+                  id="exampleDropdownFormEmail1"
+                  placeholder="email@example.com"
+                />
 
-              <div className="py-3 text-center">
-                <button
-                  type="submit"
-                  className="btn btn-primary py-2 login-button"
-                >
-                  Submit
-                </button>
-              </div>
+                <div className="py-3 text-center">
+                  <button
+                    type="submit"
+                    className="btn btn-primary py-2 login-button"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
               <Link className="text-center" to="/login-page">
                 Cancel
               </Link>

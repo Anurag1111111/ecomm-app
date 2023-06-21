@@ -11,7 +11,7 @@ const CompareProduct = () => {
       <BreadCrumb title="Compare Products" />
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-3">
+          <div className="col-5 col-md-3">
             <div className="card">
               <h5>Shop by Categories</h5>
               <ul className="d-flex flex-column ul-list">
@@ -118,7 +118,7 @@ const CompareProduct = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-9">
+          <div className="col-7 col-md-9">
             <CompareSection />
           </div>
         </div>

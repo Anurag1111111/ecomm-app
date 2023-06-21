@@ -49,7 +49,7 @@ const ProductShoePage = () => {
         }
 
         return (
-          <div className="container pt-5 markdown">
+          <div className="container pt-5 markdown hide-overflow">
             <div className="row">
               <div className="col-12 col-md-6">
                 <div className="justify-content-center">
@@ -58,7 +58,7 @@ const ProductShoePage = () => {
                     <img
                       alt="That Wanaka Tree, New Zealand by Laura Smetsers"
                       src={imageUrl}
-                      width="500"
+                      width="400"
                     />
                   </Zoom>
                 </div>

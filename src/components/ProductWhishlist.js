@@ -13,7 +13,7 @@ const ProductWhishlist = () => {
         <p className="text-muted py-4">Login to view items in List</p>
         <div className="d-flex flex-column align-items-center">
           <img
-            className="py-4"
+            className="py-4 product-whishlist"
             src="https://danapointjewelers.com/assets/images/empty-wishlist.png"
             alt="whishlist"
           />
