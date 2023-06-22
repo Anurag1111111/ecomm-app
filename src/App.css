@@ -190,11 +190,18 @@ a {
 .icon-hover:hover {
   font-size: 30px !important;
 }
-@media (min-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   .top-search {
     margin-top: 0 !important;
+    padding-top: 0 !important;
+    width: auto;
+    margin-left: 80px;
+    height: 40px;
+    margin-right: 25px;
+    margin-top: 10px !important;
   }
   .navbar-brand {
+    display: none;
     margin-top: 5px;
   }
   .pagination {

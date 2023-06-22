@@ -11,7 +11,7 @@ const Header = () => {
             EcomApp
           </Link>
 
-          <div className="input-group top-search fixed-top pt-4 mt-4">
+          <div className="input-group top-search fixed-top pt-4 mt-2">
             <input
               type="text"
               className="form-control h-100"
