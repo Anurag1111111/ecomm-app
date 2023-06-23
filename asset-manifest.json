@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecomm-app/static/css/main.8b0ed560.css",
-    "main.js": "/ecomm-app/static/js/main.00fe3c08.js",
+    "main.css": "/ecomm-app/static/css/main.5466170f.css",
+    "main.js": "/ecomm-app/static/js/main.bac00ef6.js",
     "static/media/music-image.jpg": "/ecomm-app/static/media/music-image.2e880bbc44c860f9e2fc.jpg",
     "static/media/phone-1.jpg": "/ecomm-app/static/media/phone-1.7712a70933b9602c0eda.jpg",
     "static/media/Phone.jpg": "/ecomm-app/static/media/Phone.d1bf181f222a78851fa5.jpg",
@@ -10,11 +10,11 @@
     "static/media/logo-wrangler.png": "/ecomm-app/static/media/logo-wrangler.7af548646d6ed5545d4e.png",
     "static/media/logo-godrej.png": "/ecomm-app/static/media/logo-godrej.671beead879441c5b8f3.png",
     "index.html": "/ecomm-app/index.html",
-    "main.8b0ed560.css.map": "/ecomm-app/static/css/main.8b0ed560.css.map",
-    "main.00fe3c08.js.map": "/ecomm-app/static/js/main.00fe3c08.js.map"
+    "main.5466170f.css.map": "/ecomm-app/static/css/main.5466170f.css.map",
+    "main.bac00ef6.js.map": "/ecomm-app/static/js/main.bac00ef6.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b0ed560.css",
-    "static/js/main.00fe3c08.js"
+    "static/css/main.5466170f.css",
+    "static/js/main.bac00ef6.js"
   ]
 }
